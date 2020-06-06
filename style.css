@@ -1,0 +1,119 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	/* background: url(background.jpg); */
+	/* background-attachment: fixed; */
+	background-image: url(background.jpg);
+	background-size: 100%;
+}
+
+nav{
+	overflow: hidden;
+}
+.nombre{
+	font-family: 'Roboto'!important;
+	font-weight: lighter;
+	float: left;
+	display: flex;
+	margin-left: 2%;
+	font-size: 18px;
+
+}
+
+.titulo{
+	font-family: 'Roboto'!important;
+	font-weight: bolder;
+	float: left;
+	display: flex;
+	font-size: 18px;
+}
+/* .container
+{
+	
+	height: 100vh;
+	overflow: hidden;
+	
+	background-attachment: fixed;
+} */
+/* .mixBlnd
+{
+	background-blend-mode: screen;
+} */
+
+li.primera{
+	margin-left: 31%;
+    font-size: 88px;
+    font-family: 'Amiri', serif;
+    margin-top: 0%;
+
+}
+
+li.segunda{
+	margin-top: 10%;
+    margin-left: 48%;
+	font-size: 30px;
+	font-family: 'Amiri', serif;
+
+}
+
+li.tercera {
+	margin-top: 10%;
+    margin-left: 32%;
+    font-size: 97px;
+	font-family: 'Amiri', serif;
+
+}
+
+li.cuarta{
+	margin-top: 28%;
+	margin-left: 18%;
+	font-size: 103px;
+	font-family: 'Amiri', serif;
+
+}
+
+li.quinta{
+	margin-top: 37%;
+    margin-left: 37%;
+    font-size: 49.25px;
+	font-family: 'Amiri', serif;
+
+}
+
+li.sexta{
+	margin-top: 39%;
+	margin-left: 40%;
+	font-size: 103.57px;
+	font-family: 'Amiri', serif;
+	
+}
+strong.link:hover{
+	color: red;
+	width: 100%;
+}
+
+.noFormat:hover{
+	color:red;
+}
+.noFormat {
+	list-style: none;
+	text-decoration: none;
+	font-family: 'Amiri', serif;
+	color: black!important;
+	overflow: hidden;
+}
+
+
+
+/* Acá arrancamos para celular */
+@media only screen and (min-width: 768px) {
+	li.tercera {
+		margin-top: 18%;
+	}
+	
+	body{
+		background-repeat: inherit;
+
+	}
+  }

@@ -58,7 +58,7 @@ li.segunda{
 }
 
 li.tercera {
-	margin-top: 10%;
+	margin-top: 10%!important;
     margin-left: 32%;
     font-size: 97px;
 	font-family: 'Amiri', serif;
@@ -107,11 +107,41 @@ strong.link:hover{
 
 
 /* Acá arrancamos para celular */
-@media only screen and (min-width: 768px) {
-	li.tercera {
-		margin-top: 18%;
+@media only screen and (max-width: 768px) {
+	
+	li.segunda {
+		margin-top: 28%;
+		margin-left: 43%;
+		font-size: 45px;
+		font-family: 'Amiri', serif;
 	}
 	
+	li.tercera {
+		margin-top: 36%!important;
+    	margin-left: 14%;
+	}
+
+
+	li.cuarta {
+		margin-top: 93%;
+		margin-left: 18%;
+		font-size: 103px;
+		font-family: 'Amiri', serif;
+	}
+
+	li.quinta {
+		margin-top: 117%;
+		margin-left: 39%;
+		font-size: 38.25px;
+		font-family: 'Amiri', serif;
+	}
+
+	li.sexta {
+		margin-top: 139%;
+		margin-left: 40%;
+		font-size: 103.57px;
+		font-family: 'Amiri', serif;
+	}
 	body{
 		background-repeat: inherit;
 
